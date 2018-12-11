@@ -1,6 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+	box-sizing: border-box;
+}
+.box {
+	background: #4D4B4B;
+	padding: 25px;
+	margin: 10px;
+	border: medium;
+	border-color: aqua;
+		
+}
+
+
 body {
-	background-color: red;
+	background-color: wheat;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+		
+		
 }
