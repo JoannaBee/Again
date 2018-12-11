@@ -1,25 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
-
-*{
-	box-sizing: border-box;
-}
-.box {
-	background: #4D4B4B;
-	padding: 25px;
-	margin: 10px;
-	border: medium;
-	border-color: aqua;
 		
-}
-
-
 body {
-	background-color: wheat;
+	background-color: darkseagreen;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size: 18px;
 	font-style: italic;
-	font-weight: 300;
-		
-		
+	font-weight: 300;	
+}
+
+.wrapper {
+	padding: 0px,
+}
+.first {
+	display: flex;
+	background-color: white;
+	margin: 0px;
+}
+.first > div {
+	width: 33.3333%;
+	float: left;
+	background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
 }
